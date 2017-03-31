@@ -3,7 +3,7 @@
 #include <limits>
 
 
-// This is mesh.cpp
+// This is mesh.cpp file
 Mesh::Mesh(const std::vector<Point3D>& verts,
            const std::vector< std::vector<int> >& faces)
   : m_verts(verts),
