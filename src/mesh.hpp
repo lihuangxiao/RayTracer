@@ -6,7 +6,7 @@
 #include "primitive.hpp"
 #include "algebra.hpp"
 
-// A polygonal mesh.
+// A header file for polygonal mesh.
 class Mesh : public Primitive {
 public:
   Mesh(const std::vector<Point3D>& verts,
